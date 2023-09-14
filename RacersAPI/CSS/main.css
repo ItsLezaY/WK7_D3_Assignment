@@ -1,0 +1,58 @@
+body {
+    background-image: url('/RacersAPI/CSS/MercedesF1Petronas.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Staatliches', cursive;
+}
+
+label {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(254, 255, 254);
+
+}
+
+table {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+thead th {
+    color: rgb(255, 255, 255); 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background-color: rgba(208, 80, 219, 0.5);
+    color: white;
+}
+
+.custom-btn {
+    border: 2px solid #03171a;
+    background-color: rgba(33, 141, 141, 0.5);
+    color: white;
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    font-family: 'Staatliches', cursive;
+}
+
+.custom-btn:hover {
+    background-color: rgba(116, 39, 161, 0.5);
+}
+
+
+
+#racerTable {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+}
+
+#racerTable tbody td {
+    color: white; /* Set font color to white */
+}
